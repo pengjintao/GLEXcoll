@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "array": "c",
+        "string_view": "c",
+        "initializer_list": "c",
+        "utility": "c",
+        "new": "cpp",
+        "ostream": "cpp",
+        "functional": "c",
+        "random": "c",
+        "limits": "c",
+        "*.tcc": "cpp"
+    }
+}

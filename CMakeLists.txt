@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 2.8.12)
+project(GLEX_coll)
+find_package(MPI REQUIRED)
+include_directories(SYSTEM ${MPI_INCLUDE_PATH})
+link_directories("/usr/local/glex/include")
+link_directories("/vol8/home/nudtgcy/PJT-WorkDir/numactl-master/build/lib")
+link_directories("/vol8/home/nudtgcy/PJT-WorkDir/numactl-master/build/include")
+
+ADD_SUBDIRECTORY(./src)
+ADD_SUBDIRECTORY(./test)
